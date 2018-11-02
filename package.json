@@ -1,0 +1,39 @@
+{
+  "name": "sequelized-burger",
+  "version": "1.0.0",
+  "description": "MySQL-base application that utilizes the MVC framework along with other technologies such as Node, Express, Handlebars, and ORM - now updated and revamped to sequelize the application for ease of deployment via Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrissythebuilder/SequelizedBurger.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "MySQL",
+    "MVC",
+    "Handlebars",
+    "ORM",
+    "Create",
+    "Read",
+    "Update",
+    "Delete"
+  ],
+  "author": "Chriscelle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrissythebuilder/SequelizedBurger/issues"
+  },
+  "homepage": "https://github.com/chrissythebuilder/SequelizedBurger",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {}
+}
